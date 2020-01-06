@@ -1,0 +1,1 @@
+flexbox for price, add padding to push other price out, overfill: hide, transofrm when toggle is checked.
