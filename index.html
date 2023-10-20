@@ -3,6 +3,7 @@
     <head>
         <link href="https://fonts.googleapis.com/css?family=Montserrat:700&display=swap" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="css.css">
+        <script type="text/javascript" src="JS.js"></script>
         <meta name="viewport" content="width=device-width", inital-scale=1.0>
     </head>    
     <body>
@@ -10,8 +11,8 @@
     <div class="wrapper">
         <span id="texttwo">Annually</span>
         <span>
-            <label>
-                <input type="checkbox">
+            <label for="PriceChange">
+                <input type="checkbox" id="PriceChange" onclick="priceChange()">
                 <span class="box"></span>
             </label>
         </span>
@@ -20,7 +21,7 @@
     <div class="grid">
         <div class="c1">
             <p>Basic</p>
-            <h2>$19.90 $199.99</h2>
+            <h2 id="Basic">$19.90</h2>
             <hr>
             <p>500 GB storage</p> 
             <hr>
@@ -33,7 +34,7 @@
         <div class="c2">
            <div class="c2-text">
             <p>Professional</p>
-            <h2>$24.90</h2>
+            <h2 id="Professional">$24.90</h2>
             <hr>
             <p>1 TB storage</p>
             <hr>
@@ -46,7 +47,7 @@
         </div> 
         <div class="c3">
             <p>Master</p>
-            <h2>$39.90</h2>
+            <h2 id="Master">$39.90</h2>
             <hr>
             <p>2 TB storage</p>
             <hr>
